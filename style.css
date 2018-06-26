@@ -1,13 +1,14 @@
 h1 {
     position: fixed;
     top: 0px;
-    background-color: whitesmoke;
-    color: black;
+    background-color: #ffffff;
+    color: #777777;
     width: 100%;
     height: 50px;
     text-align: center;
     top: 0px;
     z-index: 10;
+    font-family: 'Times New Roman', Times, serif;
     }
     
     h2 {
@@ -17,17 +18,21 @@ h1 {
      }
     
     body {
-        background-color: whitesmoke;
-        font-style: italic;
+        font-family: Arial, Arial, Helvetica, sans-serif ;
+        background: url(/aotolbert.github.io/images/background_pattern.png);
+    }
+    
+    .background {
+        position: fixed;
+        width: 100%;
     }
     
     
-    
     .boxed {
-        border: 1px solid black;
+        border: 1px solid #cccccc;
         background-color: white;
         text-align: center;
-        color: black;
+        color: #777777;
         padding: 10px;
         position: relative;
     }
@@ -58,7 +63,7 @@ h1 {
         width: 100%;
         bottom: 0px;
         padding: 4pt;
-        background-color: black;
+        background-color: #666666;
         z-index: 5;
         color: white;
     }
@@ -73,7 +78,7 @@ h1 {
         margin-left: auto;
         /* left: 0; */
         margin-right: auto;
-        border: hidden;
+        border: 1px solid #dddddd;
     }
     
     .profile {
@@ -90,10 +95,19 @@ h1 {
     }
     
     .links {
-        padding-left: 10px;
+        padding-left: 20px;
         padding-top: 10px;
         margin-right: 100px;
-    }
+        background-color: #ffffff;
+        color: white;
+        padding: 14px 25px;
+        
+        }
+        
+        a:hover, a:active {
+            background-color: #dddddd;
+        }
+    
     
     .header {
         /* text-align: left; */
@@ -104,10 +118,11 @@ h1 {
         padding-left: 10px;
         padding-right: 10px;
         padding-top: 26px;
-        font-style: oblique;
-        /* border: 2px solid black; */
+        /* border: 2px solid #777777; */
         margin-left: 100px;
         top: 0px;
+        color: white;
+        font-size: 25px;
     }
     
     .position5 {
