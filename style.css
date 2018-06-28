@@ -16,6 +16,7 @@ h1 {
         color: #4aaaa5;
         font-size: 25px;
         padding: 10px;
+        border-bottom: #777777
      }
     
     body {
@@ -31,7 +32,7 @@ h1 {
     
     
     .boxed {
-        border: 1px solid #cccccc;
+     
         background-color: white;
         text-align: center;
         color: #777777;
@@ -82,7 +83,7 @@ h1 {
         margin-left: auto;
         /* left: 0; */
         margin-right: auto;
-        border: 1px solid #dddddd;
+        overflow: auto;
     }
     
     .profile {
@@ -142,6 +143,7 @@ h1 {
         margin-left: auto;
         height: 525px;
         margin-right: auto;
+        overflow: hidden;
 
     }
 
@@ -171,7 +173,8 @@ h1 {
         margin-left: auto;
         /* left: 0; */
         margin-right: auto;
-        border: 1px solid #dddddd;
+        /* border: 1px solid #dddddd; */
+        overflow: scroll;
     }
 
     .porfoliobject1 {
