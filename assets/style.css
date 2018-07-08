@@ -5,3 +5,28 @@
 .resume {
     max-width: 1140px;
 }
+
+@media screen and (max-width: 768px) {
+    .firstadjustment1 {
+        height: 275px;
+    }
+    .firstadjustment2 {
+        width: 100%
+    }
+    .wrapper {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .secondadjustment1 {
+        height: 225px;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .thirdadjustment1 {
+        height: 175px;
+    }
+}
