@@ -1,9 +1,33 @@
+a {
+    text-decoration: none;
+    color: black; 
+}
+
+a:hover {
+    text-decoration:none;
+ }
+
 .carouselimage {
     height: 350px;
 }
 
 .resume {
     max-width: 1140px;
+}
+
+.portfolioicon {
+    width:340px; 
+    height:210px;
+
+}
+
+@media screen and (max-width: 992px) {
+    .portfolioicon {
+        width: 80%;
+        margin-bottom: 15px;
+        
+        
+    }
 }
 
 @media screen and (max-width: 768px) {
